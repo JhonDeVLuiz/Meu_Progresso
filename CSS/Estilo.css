@@ -1,0 +1,208 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1,h2{
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    align-items: center;
+    text-align:center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:#0F676E ;
+}
+nav > a {
+    text-decoration: none;  
+    color:#fff;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+nav ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width:100%;
+    padding: 0;
+
+}
+nav ul li{
+    text-align:center;
+    width:100%
+}
+
+nav ul li a{
+    display:inline-block;
+    padding:10px 0;
+    width:100%;
+    text-decoration:none;
+    color:#fff;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/transferir.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    color:white;
+    margin-bottom: 2em;
+}
+header button{
+    background-color: #0F676E; 
+    border: none;
+    width: 200px;
+    height: 26px ;
+    font-size: medium;
+    color:#fff;
+}
+header  a{
+    text-decoration: none;
+    display:inline-block;
+    color:#fff;
+}
+header button:hover{
+    background-color: white;
+    transition: 2.0s ;
+    color: #0F676E;
+}
+.Topo{
+   color:white; 
+}
+#formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    padding: 10px 10px 20px 20px;
+    width: 100%;
+}
+#formacao button{
+    background-color: #0F676E; 
+    border: none;
+    width: 200px;
+    height: 26px ;
+    font-size: medium;
+    color:#fff;
+}
+#formacao a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#conhecimento{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    padding: 10px 10px 20px 20px;
+    width: 100%;
+    
+    background-color: #0F676E;
+}
+#conhecimento li{
+    color:white;
+}
+#conhecimento h2{
+    color: #fff;
+}
+#conhecimento button{
+    background-color:#fff; 
+    border: none;
+    width: 200px;
+    height: 26px ;
+    font-size: medium;
+    color:#fff;
+}
+#conhecimento a{
+     text-decoration: none;
+     color:#0F676E;
+}
+#experiencia{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width:100%;
+    padding-bottom: 10px;
+}
+#experiencia a{
+    text-decoration:none;
+    color: white;
+
+}
+#experiencia button{
+    background-color: #0F676E; 
+    border: none;
+    width: 200px;
+    height: 26px ;
+    font-size: medium;
+    color:#fff;
+}
+
+    
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0F676E;
+    padding: 10px 10px 20px 20px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color:#0F676E;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width:100%;
+    padding-bottom: 10px;
+}
+footer a{
+    text-decoration:none ;   
+    color: #fff;
+}
+footer p:hover{
+     transition: 1.0s;
+     color: black;
+}
+footer p{
+    color: #0F676E;
+}
+footer button{
+    background-color: black;
+    
+    border: none;
+    width: 200px;
+    height: 26px ;
+    font-size: medium;
+    color:#fff;
+}
+footer h2{
+    color: #fff;
+}
+@media screen  and (min-width:768px){
+    
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction:row ;
+        width: 70%;
+    }
+}
